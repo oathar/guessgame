@@ -8,7 +8,6 @@ const message = document.getElementById("msg");
 const attemptSpan = document.getElementById("Attempt");
 
 // Audio elements
-const bgMusic = document.getElementById("bg-music");
 const correctSound = document.getElementById("correct-sound");
 const incorrectSound = document.getElementById("incorrect-sound");
 
