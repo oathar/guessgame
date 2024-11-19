@@ -1,0 +1,60 @@
+.container {
+    border: 1px solid black;
+    background: radial-gradient(circle, #c4bebd, #dad9d8); /* Radial gradient */
+    text-align: center;
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 33%;
+    margin-right: 25%;
+    box-shadow: 0px 2px 5px;
+    border-radius: 10px;
+    height: auto; 
+    padding-bottom: 20px;
+}
+
+body {
+    background-color: lightblue;
+    background: radial-gradient(circle, #6c1784, #feb47b); /* Radial gradient */
+}
+
+@keyframes correct-guess {
+    0% { background-color: #fff; }
+    50% { background-color: green; }
+    100% { background-color: #fff; }
+}
+
+@keyframes incorrect-guess {
+    0% { background-color: #fff; }
+    50% { background-color: red; }
+    100% { background-color: #fff; }
+}
+
+.correct {
+    animation: correct-guess 1s ease;
+}
+
+.incorrect {
+    animation: incorrect-guess 1s ease;
+}
+
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 5px;
+    margin: 1px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+}
+
+button:hover {
+    background-color: #010602;
+}
+
+.center-btn {
+    display: block;
+    margin: 0 auto; /* This centers the button horizontally */
+}
+
